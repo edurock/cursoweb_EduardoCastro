@@ -1,0 +1,15 @@
+<!-- Para dar estilo a la pagina -->
+		
+
+.Intro{
+	color: black;
+	background-color: grey;
+	font-family: "Arial", "Verdana"; 
+	font-size: 20pt;	
+	line-height: 1.5;
+}
+.Intro a{
+	color: yellow;
+	/*text-decoration: none;*/
+}
+
