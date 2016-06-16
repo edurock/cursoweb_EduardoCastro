@@ -1,0 +1,41 @@
+
+h1{
+	color: white;
+	background: violet;
+}
+
+h2{
+	color: red;
+	font-family: "Arial";
+	line-height: 1.5;
+}
+
+p{
+	color: green;
+	font-family: "Verdana";
+}
+
+.tel li{
+	color: violet;
+	font-family: "Verdana";
+}
+
+.email li{
+	color: blue;
+	font-family: "Verdana";
+}
+
+.menu{
+	color: black;
+	background-color: grey;
+	font-family: "Arial"; 
+	font-size: 24pt;
+}
+
+ol li{
+	color: blue;
+	font-family: "Verdana";
+	line-height: 1.5;
+
+}
+
