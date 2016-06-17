@@ -1,0 +1,40 @@
+div{
+	width: 300px;
+	height: 150px;
+	font-size: 30px;
+
+	float: right;
+}
+.caja{ /*Deja el codigo en su posicion a un que se mueva la pagina*/
+	position: absolute;
+	top: 200px;
+	bottom: 0px;
+	right: 0px;
+	left: 100px;
+}
+.caja2{ /* El codigo se mueve con la pantalla*/
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.cajaGrande{
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+
+.verde{ 
+	background: green
+}
+.amarillo{
+	background: yellow;
+}
+.rojo{
+	background: red; 
+}
+.rosa{
+	background: pink; 
+}

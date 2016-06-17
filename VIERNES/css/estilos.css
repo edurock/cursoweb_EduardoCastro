@@ -1,0 +1,64 @@
+/* Hoja de estilos de la carpeta viernes */
+body{
+	color: #004d4d;
+	background-color: white; 
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+
+.menuNavegacion{
+	background: #fddc54; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menuNavegacion ul{
+	margin: 0;
+}
+
+.menuNavegacion ul li{
+	display: inline;list-style: none;
+	border: 1px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.menuNavegacion ul li a{
+	color: white;
+	padding: 2px 15px;
+	background: orange;
+	text-decoration: none;
+	
+}
+
+.menuNavegacion ul li:hover a{
+	background: red;
+}
+
+/*Titulo principal*/
+.tituloPrincipal{
+	background: #fddc54;
+}
+
+.tituloPrincipal h1{
+	margin: 0 ;
+	color: violet;
+	font-family: 10px
+	padding:15px 0;
+	padding-left: 10px;
+}
+
+.segundoMenuNave ul{
+	margin-top: 20px;
+}
+
+.introduccion{
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 35px;
+	border-bottom: 1px solid gray;
+}
