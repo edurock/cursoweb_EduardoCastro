@@ -1,0 +1,92 @@
+html{
+	background-image: url("/home/edu/Escritorio/cursoWeb/PROJECTO/imagenes/fondo.jpg");
+}
+body{
+	margin: 100;
+	margin-top: 50px;
+	height: 100%;
+	padding: 10;
+	background: #FFA07A;
+	font-family: "Arial";
+	border: 2px solid black;
+	color: white;
+}
+
+h1{
+	color: #e8daef;
+	padding: 20px;
+	text-align: center;
+}
+.tituloPrincipal{
+	background:  #CD5C5C ;
+}
+.menuNavegacion{
+	text-align: center;
+}
+
+.menuNavegacion ul{
+	margin: 10px;
+	padding: 10px;
+}
+.menuNavegacion li{
+	display: inline;
+	width: 20%;
+}
+.menuNavegacion a{
+	color: #e8daef;
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	background: #CD5C5C;
+}
+.menuNavegacion li.activo a,
+.menuNavegacion li:hover a{
+	background:  #ba4a00 ;
+}
+
+.menuNavegacion img{
+	margin-top: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.inf{
+	margin-top: 40px;
+	text-align: center;
+	line-height: 1.6;
+}
+/* Acerca de nosotros */
+.infA{
+	margin-right: 0px;
+	margin-left: 600px;
+	margin-top: 40px;
+	text-align: center;
+	line-height: 1.6;
+
+}
+.infAc{
+	margin-top: -450px;
+	margin-left: 100px;
+	margin-right: 500px;
+	border-right: 1px solid black;
+}
+
+.galera{
+	border-bottom: 1px solid black;
+}
+
+.galera .der{
+	text-align: center;
+	margin: 30px 800px 20px 0px;
+}
+.galera .cent{
+	text-align: center;
+	margin: -392px 400px 20px 400px;
+}
+.galera .Cizq{
+	text-align: center;
+	margin: -322px 0px 20px 775px;
+}
+
+.tab{
+	text-align: center;	
+}
